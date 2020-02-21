@@ -10,5 +10,7 @@ namespace HashCode2020
     {
         public int Id { get; set; }
         public int BookScore { get; set; }
+
+        public bool IsScanneed = false;
     }
 }
